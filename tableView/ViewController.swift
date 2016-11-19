@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    var nani = "thats my"
 var name = ["fasdf","fad","fadf","fadsf","fdaf","fadf","fadf","fadfa","fadf","fadsfa","fadf","fdaf","fadf"]
     var images = [#imageLiteral(resourceName: "table_cafe"), #imageLiteral(resourceName: "children_children"), #imageLiteral(resourceName: "exit_spectaclesmen"), #imageLiteral(resourceName: "hotel_hotel1"), #imageLiteral(resourceName: "news_outings"), #imageLiteral(resourceName: "table_earsandtail"), #imageLiteral(resourceName: "hotel_waleshotel"), #imageLiteral(resourceName: "exit_dogs"), #imageLiteral(resourceName: "children_mouilette"), #imageLiteral(resourceName: "news_tower"), #imageLiteral(resourceName: "table_generalcounter"), #imageLiteral(resourceName: "shows_shop1")]
     override func viewDidLoad() {
